@@ -8,6 +8,10 @@ Work related scripts / notes
 
 Opens each .pdf file from directory next to script in a Chrome incognito window
 
-## remux
+## remux.ps1
 
 Convert each .flv file to .mp4 in directory. Requires `ffmpeg` in $PATH
+
+## tightvnc.md
+
+How to setup projector preview on a machine connected to LAN
