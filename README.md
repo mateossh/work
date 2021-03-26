@@ -4,6 +4,10 @@ Work related scripts / notes
 
 ---
 
+## clear_spool.ps1
+
+Force clear printer spool in Windows 7+
+
 ## open_pdf.ps1
 
 Opens each .pdf file from directory next to script in a Chrome incognito window
