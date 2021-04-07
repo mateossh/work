@@ -4,6 +4,10 @@ Work related scripts / notes
 
 ---
 
+## cdkey.ps1
+
+Get Windows Product Key from ACPI tables
+
 ## clear_spool.ps1
 
 Force clear printer spool in Windows 7+
