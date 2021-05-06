@@ -2,6 +2,8 @@
 
 Work related scripts / notes
 
+Remember about `Set-ExecutionPolicy`
+
 ---
 
 ## cdkey.ps1
