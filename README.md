@@ -40,3 +40,7 @@ zxcv
 ## Export "third-party" drivers
 
 `dism /online /export-driver /destination:c:\exported-drivers`
+
+## Paragraph symbol (Windows)
+
+`ALT + 0167` -> `§`
