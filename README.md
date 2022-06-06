@@ -41,6 +41,14 @@ zxcv
 
 `dism /online /export-driver /destination:c:\exported-drivers`
 
+## .NET 3.5 installation with no internet
+
+`dism /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:x:\sources\sxs` (where x: is installation drive)
+
+or
+
+`dism /Online /Add-Package /PackagePath:"X:\sources\sxs\Microsoft-Windows-NetFx3-OnDemand-Package.cab"` (where x: is installation drive)
+
 ## Paragraph symbol (Windows)
 
 `ALT + 0167` -> `§`
