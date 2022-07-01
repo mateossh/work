@@ -52,3 +52,11 @@ or
 ## Paragraph symbol (Windows)
 
 `ALT + 0167` -> `§`
+
+## Count files in folder PowerShell
+
+`(Get-ChildItem -Filter *.pdf -Recurse).FullName | measure`
+
+similar result with unix tools
+
+`find . -name "*pdf" | wc -l`
