@@ -6,6 +6,12 @@ Remember about `Set-ExecutionPolicy`
 
 ---
 
+## ip_checker.py
+
+Log IP address every 30 seconds to `plik.txt`
+
+Before you run: `pip install requests`
+
 ## cdkey.ps1
 
 Get Windows Product Key from ACPI tables
