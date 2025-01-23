@@ -1,0 +1,1 @@
+sqlcmd -U 'sa' -P 'password' -S "np:\\.\pipe\MSSQL`$SQLEXPRESS\sql\query" -Q "EXEC sp_BackupDatabases @backupLocation = 'C:\SQLBackups\', @backupType='F', @databaseName='testowbaza'"
